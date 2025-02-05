@@ -1,0 +1,14 @@
+{
+    "name": "Real-Time Weather Teller",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": ["geolocation" , "activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "weather_icon.png"
+    },
+    "icons": {
+      "128": "weather_icon.png"
+    }
+  }
+  
