@@ -1,58 +1,51 @@
+# Forecastify ⛅🌦️
 
+## Chrome Extension
 
-Chrome Extension
+## Overview
 
-Overview
+Forecastify is a simple and interactive Chrome extension that provides users with current weather updates. With this extension, users can enter any city name and instantly receive real-time weather information such as temperature and weather conditions.
 
-Real-Time Weather Teller is a simple and interactive Chrome extension that provides users with current weather updates. With this extension, users can enter any city name and instantly receive real-time weather information such as temperature and weather conditions.
+## Key Features
 
-Key Features
+- Fetches current weather information from OpenWeatherMap API.
+- Displays city name, temperature, and weather description.
+- Simple and user-friendly interface.
+- Lightweight and fast performance.
 
-Fetches current weather information from OpenWeatherMap API.
+## How to Install
 
-Displays city name, temperature, and weather description.
+- Clone this repository or download it as a ZIP file.
+- Open Chrome and navigate to chrome://extensions/.
+- Enable Developer Mode using the toggle on the top right.
+- Click on Load Unpacked and select the folder containing the extension files.
+- The extension icon will now appear in the toolbar.
 
-Simple and user-friendly interface.
+## How to Use
 
-Lightweight and fast performance.
+- [ 1.] Click the extension icon to open the popup.
 
-How to Install
+- [ 2.] Enter the name of the desired city.
 
-Clone this repository or download it as a ZIP file.
+- [ 3.] Click the Get Weather button.
 
-Open Chrome and navigate to chrome://extensions/.
+- [ 4.] View the current weather details, including temperature and conditions.
 
-Enable Developer Mode using the toggle on the top right.
-
-Click on Load Unpacked and select the folder containing the extension files.
-
-The extension icon will now appear in the toolbar.
-
-How to Use
-
-Click the extension icon to open the popup.
-
-Enter the name of the desired city.
-
-Click the Get Weather button.
-
-View the current weather details, including temperature and conditions.
-
-Project Structure
-
+## Project Structure
+```
 Real-Time Weather Teller
-├── index.html        # Main HTML file for the extension
+├── index.html         # Main HTML file for the extension
 ├── script.js          # Fetches and displays weather data
 ├── style.css          # Styling for the popup UI
 ├── manifest.json      # Chrome extension configuration file
 └── weather_icon.png   # Extension icon
+```
+## Screenshots
+![image](https://github.com/user-attachments/assets/a6705336-8894-408b-847c-05c9eb6b47fb)
+![image](https://github.com/user-attachments/assets/88234032-b4c8-4e6d-a72d-4d5dfa017e07)
+![image](https://github.com/user-attachments/assets/8c310b69-34ac-445a-9e08-ef8a41489cce)
 
-Screenshots
-
-
-
-
-API Usage
+## API Usage
 
 This extension fetches weather data from OpenWeatherMap API:
 
@@ -60,12 +53,12 @@ Geocoding Endpoint: https://api.openweathermap.org/geo/1.0/direct
 
 Weather Data Endpoint: https://api.openweathermap.org/data/2.5/weather
 
-Permissions
+## Permissions
 
 Geolocation: Allows the extension to use the user's location for fetching weather updates.
 
 Active Tab: Ensures the extension functions correctly within the active browser tab.
 
-Credits
+## Credits
 
 Developer: Abhinav Anpan
